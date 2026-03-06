@@ -20,7 +20,7 @@ A modern **React Weather App** built with **Material UI** that allows users to s
 ## Output
 
 ### Weather Info
-![Weather Info](./src/output.png)
+![Weather Info](./output.png)
 
 
 ## Technologies Used
