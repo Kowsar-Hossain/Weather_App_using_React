@@ -1,16 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Weather App 🌦️
 
-Currently, two official plugins are available:
+A modern **React Weather App** built with **Material UI** that allows users to search for weather information for any city in the world. Displays temperature, humidity, "feels like" temperature, description, and weather icon with dynamic background images.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search for any city’s weather  
+- 🌤 Shows temperature, humidity, feels like, and weather description  
+- 🖼 Dynamic background image based on weather  
+- 🌈 Material UI design  
+- ⏱ Loading indicator while fetching data  
+- ❌ Error alert if city not found  
+- 📍 Easy to extend for geolocation and forecasts  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots / Output
+
+### Search Weather
+![Search Weather](./screenshots/search.png)
+
+### Weather Info
+![Weather Info](./screenshots/weather_card.png)
+
+*(Replace the above images with actual screenshots from your app.)*
+
+---
+
+## Technologies Used
+
+- React.js  
+- Material UI (MUI)  
+- OpenWeatherMap API  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-weather-app.git
+cd react-weather-app
