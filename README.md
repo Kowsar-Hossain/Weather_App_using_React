@@ -17,17 +17,11 @@ A modern **React Weather App** built with **Material UI** that allows users to s
 
 ---
 
-## Screenshots / Output
-
-### Search Weather
-![Search Weather](./screenshots/search.png)
+## Output
 
 ### Weather Info
-![Weather Info](./screenshots/weather_card.png)
+![Weather Info](./src/output.png)
 
-*(Replace the above images with actual screenshots from your app.)*
-
----
 
 ## Technologies Used
 
